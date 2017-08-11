@@ -1,0 +1,575 @@
+Validating models...
+
+System check identified no issues (0 silenced).
+August 03, 2017 - 23:48:06
+Django version 1.11.2, using settings 'python_tutorial.settings'
+Starting development server at https://0:8000/
+Using SSL certificate: /usr/local/lib/python3.5/dist-packages/sslserver/certs/development.crt
+Using SSL key: /usr/local/lib/python3.5/dist-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('192.168.52.1', 57993)
+----------------------------------------
+[get_my_events] HELLO, Current time is: 2017-08-03 23:48:53.280710
+[get_my_events] get_events_url = https://graph.microsoft.com/v1.0/me/CalendarView?startDateTime=2017-07-29 23:48:53.280041&endDateTime=2018-01-30 23:48:53.280330
+[get_my_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Board Game Lunch >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: Hey guys,
+
+The votes are in. Looks like Thursday, August 10th works best for everyone.
+Given the number of people that showed interest, here’s what I was thinking of bringing. Feel free to bring your own games as well!
+
+Game
+
+Player count
+
+Rules/
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: otherroomschedule2
+[all_events]: >>>> otherroomschedule2 has been updated ....... 
+
+[get_bunker_events]  HELLO, Current time is: 2017-08-03 23:48:54.544662
+[get_bunker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/bunker@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:48:54.544295&endDateTime=2018-01-30 23:48:54.544535
+[get_bunker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-07-31T18:00:00.0000000 UTC >>> End Time: 2017-07-31T21:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-01T12:00:00.0000000 UTC >>> End Time: 2017-08-01T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Dancing 101 with Denis >>> Location: Bunker >>> Start Time: 2017-08-02T21:30:00.0000000 UTC >>> End Time: 2017-08-03T00:00:00.0000000 UTC >>> Organizer: Bunker >>>  Desription: The dancing lesson will contain Salsa and, probably, one classic ballroom (Waltz or Quickstep). All the material from the  July 27 lesson will be reviewed and repeated. So, if you missed the first lesson on July, 27 - don't worry, we will start over.  I i
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dustin Phillips  >>> Location: Bunker >>> Start Time: 2017-08-03T15:30:00.0000000 UTC >>> End Time: 2017-08-03T15:45:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Scott Whitlock  >>> Location: Bunker @ Flexware >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T21:00:00.0000000 UTC >>> Organizer: Scott Whitlock >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-04T12:00:00.0000000 UTC >>> End Time: 2017-08-04T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-08-04T17:00:00.0000000 UTC >>> End Time: 2017-08-04T18:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Will Nichols  >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-15T12:00:00.0000000 UTC >>> End Time: 2017-08-15T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-17T14:00:00.0000000 UTC >>> End Time: 2017-08-17T18:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Jesse Wortman  >>> Location: Bunker >>> Start Time: 2017-08-18T14:00:00.0000000 UTC >>> End Time: 2017-08-18T15:30:00.0000000 UTC >>> Organizer: Jesse Wortman >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Jason Strawhacker  >>> Location: Bunker >>> Start Time: 2017-08-18T15:30:00.0000000 UTC >>> End Time: 2017-08-18T19:00:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-22T12:00:00.0000000 UTC >>> End Time: 2017-08-22T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-23T21:00:00.0000000 UTC >>> End Time: 2017-08-24T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-24T11:00:00.0000000 UTC >>> End Time: 2017-08-24T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-29T12:00:00.0000000 UTC >>> End Time: 2017-08-29T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-05T12:00:00.0000000 UTC >>> End Time: 2017-09-05T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-12T12:00:00.0000000 UTC >>> End Time: 2017-09-12T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-19T12:00:00.0000000 UTC >>> End Time: 2017-09-19T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-24T12:00:00.0000000 UTC >>> End Time: 2017-09-24T23:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-26T12:00:00.0000000 UTC >>> End Time: 2017-09-26T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-27T21:00:00.0000000 UTC >>> End Time: 2017-09-28T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-03T12:00:00.0000000 UTC >>> End Time: 2017-10-03T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-05T11:00:00.0000000 UTC >>> End Time: 2017-10-05T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Jillian Vanarsdall  >>> Location: Flexware's Backyard >>> Start Time: 2017-10-07T16:00:00.0000000 UTC >>> End Time: 2017-10-07T19:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-10T12:00:00.0000000 UTC >>> End Time: 2017-10-10T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-17T12:00:00.0000000 UTC >>> End Time: 2017-10-17T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-24T12:00:00.0000000 UTC >>> End Time: 2017-10-24T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-25T21:00:00.0000000 UTC >>> End Time: 2017-10-26T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: bunkerroomschedule2
+[all_events]: >>>> bunkerroomschedule2 has been updated ....... 
+
+[get_boilermaker_events]  HELLO, Current time is: 2017-08-03 23:48:57.890046
+[get_boilermaker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Boilermaker.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:48:57.889683&endDateTime=2018-01-30 23:48:57.889920
+[get_boilermaker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-30T19:00:00.0000000 UTC >>> End Time: 2017-07-30T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Jason Toschlog  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T12:30:00.0000000 UTC >>> End Time: 2017-07-31T14:00:00.0000000 UTC >>> Organizer: Jason Toschlog >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T19:00:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Will Nichols  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T14:30:00.0000000 UTC >>> End Time: 2017-08-01T16:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T17:00:00.0000000 UTC >>> End Time: 2017-08-01T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T18:00:00.0000000 UTC >>> End Time: 2017-08-01T18:45:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T19:00:00.0000000 UTC >>> End Time: 2017-08-01T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T17:00:00.0000000 UTC >>> End Time: 2017-08-02T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T19:00:00.0000000 UTC >>> End Time: 2017-08-02T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Gabe Holmes  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T17:59:00.0000000 UTC >>> End Time: 2017-08-03T18:55:00.0000000 UTC >>> Organizer: Gabe Holmes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T13:30:00.0000000 UTC >>> End Time: 2017-08-04T14:30:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T19:00:00.0000000 UTC >>> End Time: 2017-08-04T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Dustin Phillips  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-07T17:00:00.0000000 UTC >>> End Time: 2017-08-07T17:30:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T18:00:00.0000000 UTC >>> End Time: 2017-08-09T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jace Sanders  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T19:00:00.0000000 UTC >>> End Time: 2017-08-09T20:00:00.0000000 UTC >>> Organizer: Jace Sanders >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-14T14:00:00.0000000 UTC >>> End Time: 2017-08-14T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-11T14:00:00.0000000 UTC >>> End Time: 2017-09-11T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-13T18:00:00.0000000 UTC >>> End Time: 2017-09-13T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-09T14:00:00.0000000 UTC >>> End Time: 2017-10-09T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-11T18:00:00.0000000 UTC >>> End Time: 2017-10-11T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-08T19:00:00.0000000 UTC >>> End Time: 2017-11-08T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-13T15:00:00.0000000 UTC >>> End Time: 2017-11-13T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-11T15:00:00.0000000 UTC >>> End Time: 2017-12-11T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-13T19:00:00.0000000 UTC >>> End Time: 2017-12-13T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: boilermakerroomschedule2
+[all_events]: >>>> boilermakerroomschedule2 has been updated ....... 
+
+[get_strategy_events]  HELLO, Current time is: 2017-08-03 23:49:00.685130
+[get_strategy_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Strategy.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:49:00.684687&endDateTime=2018-01-30 23:49:00.684935
+[get_strategy_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T19:30:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T20:00:00.0000000 UTC >>> End Time: 2017-07-31T22:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T12:00:00.0000000 UTC >>> End Time: 2017-08-02T13:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T14:00:00.0000000 UTC >>> End Time: 2017-08-02T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T17:30:00.0000000 UTC >>> End Time: 2017-08-02T19:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T14:00:00.0000000 UTC >>> End Time: 2017-08-03T14:30:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T14:30:00.0000000 UTC >>> End Time: 2017-08-03T15:30:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Jason Strawhacker  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T18:00:00.0000000 UTC >>> End Time: 2017-08-03T18:30:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Matt Heiden  >>> Location: Conference Call-in; Strategy Room if at Flexware Office >>> Start Time: 2017-08-03T20:00:00.0000000 UTC >>> End Time: 2017-08-03T21:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-04T17:30:00.0000000 UTC >>> End Time: 2017-08-04T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-07T17:30:00.0000000 UTC >>> End Time: 2017-08-07T19:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T13:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T13:00:00.0000000 UTC >>> End Time: 2017-08-08T14:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T14:00:00.0000000 UTC >>> End Time: 2017-08-08T15:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T17:00:00.0000000 UTC >>> End Time: 2017-08-08T18:30:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-09T17:30:00.0000000 UTC >>> End Time: 2017-08-09T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-09T19:00:00.0000000 UTC >>> End Time: 2017-08-09T20:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Jace Sanders  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T13:00:00.0000000 UTC >>> End Time: 2017-08-10T14:00:00.0000000 UTC >>> Organizer: Jace Sanders >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T14:00:00.0000000 UTC >>> End Time: 2017-08-10T15:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T17:30:00.0000000 UTC >>> End Time: 2017-08-10T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-15T13:30:00.0000000 UTC >>> End Time: 2017-08-15T16:00:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-15T17:30:00.0000000 UTC >>> End Time: 2017-08-15T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-16T13:30:00.0000000 UTC >>> End Time: 2017-08-16T14:30:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-21T20:00:00.0000000 UTC >>> End Time: 2017-08-21T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-30T14:00:00.0000000 UTC >>> End Time: 2017-08-30T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-13T20:00:00.0000000 UTC >>> End Time: 2017-09-13T21:00:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-18T20:00:00.0000000 UTC >>> End Time: 2017-09-18T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-19T17:30:00.0000000 UTC >>> End Time: 2017-09-19T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-27T14:00:00.0000000 UTC >>> End Time: 2017-09-27T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-10-16T20:00:00.0000000 UTC >>> End Time: 2017-10-16T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: strategyroomschedule2
+[all_events]: >>>> strategyroomschedule2 has been updated ....... 
+
+[views.py/all_events] Databases have been updated. Current time is:2017-08-03 23:49:03.853201
+[get_my_events] HELLO, Current time is: 2017-08-03 23:51:03.863429
+[get_my_events] get_events_url = https://graph.microsoft.com/v1.0/me/CalendarView?startDateTime=2017-07-29 23:51:03.863064&endDateTime=2018-01-30 23:51:03.863270
+[get_my_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Board Game Lunch >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: Hey guys,
+
+The votes are in. Looks like Thursday, August 10th works best for everyone.
+Given the number of people that showed interest, here’s what I was thinking of bringing. Feel free to bring your own games as well!
+
+Game
+
+Player count
+
+Rules/
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: otherroomschedule2
+[all_events]: >>>> otherroomschedule2 has been updated ....... 
+
+[get_bunker_events]  HELLO, Current time is: 2017-08-03 23:51:05.493943
+[get_bunker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/bunker@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:51:05.493299&endDateTime=2018-01-30 23:51:05.493679
+[get_bunker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-07-31T18:00:00.0000000 UTC >>> End Time: 2017-07-31T21:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-01T12:00:00.0000000 UTC >>> End Time: 2017-08-01T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Dancing 101 with Denis >>> Location: Bunker >>> Start Time: 2017-08-02T21:30:00.0000000 UTC >>> End Time: 2017-08-03T00:00:00.0000000 UTC >>> Organizer: Bunker >>>  Desription: The dancing lesson will contain Salsa and, probably, one classic ballroom (Waltz or Quickstep). All the material from the  July 27 lesson will be reviewed and repeated. So, if you missed the first lesson on July, 27 - don't worry, we will start over.  I i
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dustin Phillips  >>> Location: Bunker >>> Start Time: 2017-08-03T15:30:00.0000000 UTC >>> End Time: 2017-08-03T15:45:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Scott Whitlock  >>> Location: Bunker @ Flexware >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T21:00:00.0000000 UTC >>> Organizer: Scott Whitlock >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-04T12:00:00.0000000 UTC >>> End Time: 2017-08-04T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-08-04T17:00:00.0000000 UTC >>> End Time: 2017-08-04T18:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Will Nichols  >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-15T12:00:00.0000000 UTC >>> End Time: 2017-08-15T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-17T14:00:00.0000000 UTC >>> End Time: 2017-08-17T18:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Jesse Wortman  >>> Location: Bunker >>> Start Time: 2017-08-18T14:00:00.0000000 UTC >>> End Time: 2017-08-18T15:30:00.0000000 UTC >>> Organizer: Jesse Wortman >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Jason Strawhacker  >>> Location: Bunker >>> Start Time: 2017-08-18T15:30:00.0000000 UTC >>> End Time: 2017-08-18T19:00:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-22T12:00:00.0000000 UTC >>> End Time: 2017-08-22T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-23T21:00:00.0000000 UTC >>> End Time: 2017-08-24T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-24T11:00:00.0000000 UTC >>> End Time: 2017-08-24T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-29T12:00:00.0000000 UTC >>> End Time: 2017-08-29T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-05T12:00:00.0000000 UTC >>> End Time: 2017-09-05T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-12T12:00:00.0000000 UTC >>> End Time: 2017-09-12T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-19T12:00:00.0000000 UTC >>> End Time: 2017-09-19T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-24T12:00:00.0000000 UTC >>> End Time: 2017-09-24T23:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-26T12:00:00.0000000 UTC >>> End Time: 2017-09-26T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-27T21:00:00.0000000 UTC >>> End Time: 2017-09-28T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-03T12:00:00.0000000 UTC >>> End Time: 2017-10-03T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-05T11:00:00.0000000 UTC >>> End Time: 2017-10-05T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Jillian Vanarsdall  >>> Location: Flexware's Backyard >>> Start Time: 2017-10-07T16:00:00.0000000 UTC >>> End Time: 2017-10-07T19:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-10T12:00:00.0000000 UTC >>> End Time: 2017-10-10T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-17T12:00:00.0000000 UTC >>> End Time: 2017-10-17T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-24T12:00:00.0000000 UTC >>> End Time: 2017-10-24T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-25T21:00:00.0000000 UTC >>> End Time: 2017-10-26T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: bunkerroomschedule2
+[all_events]: >>>> bunkerroomschedule2 has been updated ....... 
+
+[get_boilermaker_events]  HELLO, Current time is: 2017-08-03 23:51:09.165400
+[get_boilermaker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Boilermaker.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:51:09.165026&endDateTime=2018-01-30 23:51:09.165272
+[get_boilermaker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-30T19:00:00.0000000 UTC >>> End Time: 2017-07-30T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Jason Toschlog  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T12:30:00.0000000 UTC >>> End Time: 2017-07-31T14:00:00.0000000 UTC >>> Organizer: Jason Toschlog >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T19:00:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Will Nichols  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T14:30:00.0000000 UTC >>> End Time: 2017-08-01T16:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T17:00:00.0000000 UTC >>> End Time: 2017-08-01T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T18:00:00.0000000 UTC >>> End Time: 2017-08-01T18:45:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T19:00:00.0000000 UTC >>> End Time: 2017-08-01T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T17:00:00.0000000 UTC >>> End Time: 2017-08-02T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T19:00:00.0000000 UTC >>> End Time: 2017-08-02T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Gabe Holmes  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T17:59:00.0000000 UTC >>> End Time: 2017-08-03T18:55:00.0000000 UTC >>> Organizer: Gabe Holmes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T13:30:00.0000000 UTC >>> End Time: 2017-08-04T14:30:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T19:00:00.0000000 UTC >>> End Time: 2017-08-04T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Dustin Phillips  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-07T17:00:00.0000000 UTC >>> End Time: 2017-08-07T17:30:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T18:00:00.0000000 UTC >>> End Time: 2017-08-09T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jace Sanders  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T19:00:00.0000000 UTC >>> End Time: 2017-08-09T20:00:00.0000000 UTC >>> Organizer: Jace Sanders >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-14T14:00:00.0000000 UTC >>> End Time: 2017-08-14T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-11T14:00:00.0000000 UTC >>> End Time: 2017-09-11T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-13T18:00:00.0000000 UTC >>> End Time: 2017-09-13T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-09T14:00:00.0000000 UTC >>> End Time: 2017-10-09T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-11T18:00:00.0000000 UTC >>> End Time: 2017-10-11T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-08T19:00:00.0000000 UTC >>> End Time: 2017-11-08T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-13T15:00:00.0000000 UTC >>> End Time: 2017-11-13T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-11T15:00:00.0000000 UTC >>> End Time: 2017-12-11T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-13T19:00:00.0000000 UTC >>> End Time: 2017-12-13T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: boilermakerroomschedule2
+[all_events]: >>>> boilermakerroomschedule2 has been updated ....... 
+
+[get_strategy_events]  HELLO, Current time is: 2017-08-03 23:51:11.744443
+[get_strategy_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Strategy.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:51:11.744009&endDateTime=2018-01-30 23:51:11.744313
+[get_strategy_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T19:30:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T20:00:00.0000000 UTC >>> End Time: 2017-07-31T22:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T12:00:00.0000000 UTC >>> End Time: 2017-08-02T13:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T14:00:00.0000000 UTC >>> End Time: 2017-08-02T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T17:30:00.0000000 UTC >>> End Time: 2017-08-02T19:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T14:00:00.0000000 UTC >>> End Time: 2017-08-03T14:30:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T14:30:00.0000000 UTC >>> End Time: 2017-08-03T15:30:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Jason Strawhacker  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-03T18:00:00.0000000 UTC >>> End Time: 2017-08-03T18:30:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Matt Heiden  >>> Location: Conference Call-in; Strategy Room if at Flexware Office >>> Start Time: 2017-08-03T20:00:00.0000000 UTC >>> End Time: 2017-08-03T21:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-04T17:30:00.0000000 UTC >>> End Time: 2017-08-04T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-07T17:30:00.0000000 UTC >>> End Time: 2017-08-07T19:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T13:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T13:00:00.0000000 UTC >>> End Time: 2017-08-08T14:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Ryan Binkley  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T14:00:00.0000000 UTC >>> End Time: 2017-08-08T15:00:00.0000000 UTC >>> Organizer: Ryan Binkley >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-08T17:00:00.0000000 UTC >>> End Time: 2017-08-08T18:30:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-09T17:30:00.0000000 UTC >>> End Time: 2017-08-09T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-09T19:00:00.0000000 UTC >>> End Time: 2017-08-09T20:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Jace Sanders  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T13:00:00.0000000 UTC >>> End Time: 2017-08-10T14:00:00.0000000 UTC >>> Organizer: Jace Sanders >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T14:00:00.0000000 UTC >>> End Time: 2017-08-10T15:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-10T17:30:00.0000000 UTC >>> End Time: 2017-08-10T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-15T13:30:00.0000000 UTC >>> End Time: 2017-08-15T16:00:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-15T17:30:00.0000000 UTC >>> End Time: 2017-08-15T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-16T13:30:00.0000000 UTC >>> End Time: 2017-08-16T14:30:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-21T20:00:00.0000000 UTC >>> End Time: 2017-08-21T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-30T14:00:00.0000000 UTC >>> End Time: 2017-08-30T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Kelly Pryor  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-13T20:00:00.0000000 UTC >>> End Time: 2017-09-13T21:00:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-18T20:00:00.0000000 UTC >>> End Time: 2017-09-18T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-19T17:30:00.0000000 UTC >>> End Time: 2017-09-19T18:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-09-27T14:00:00.0000000 UTC >>> End Time: 2017-09-27T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Brice Bucher  >>> Location: Strategy Conference Room >>> Start Time: 2017-10-16T20:00:00.0000000 UTC >>> End Time: 2017-10-16T21:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: strategyroomschedule2
+[all_events]: >>>> strategyroomschedule2 has been updated ....... 
+
+[views.py/all_events] Databases have been updated. Current time is:2017-08-03 23:51:14.833837
+[get_my_events] HELLO, Current time is: 2017-08-03 23:53:14.838540
+[get_my_events] get_events_url = https://graph.microsoft.com/v1.0/me/CalendarView?startDateTime=2017-07-29 23:53:14.838102&endDateTime=2018-01-30 23:53:14.838409
+[get_my_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Board Game Lunch >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: Hey guys,
+
+The votes are in. Looks like Thursday, August 10th works best for everyone.
+Given the number of people that showed interest, here’s what I was thinking of bringing. Feel free to bring your own games as well!
+
+Game
+
+Player count
+
+Rules/
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: otherroomschedule2
+[all_events]: >>>> otherroomschedule2 has been updated ....... 
+
+[get_bunker_events]  HELLO, Current time is: 2017-08-03 23:53:16.309802
+[get_bunker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/bunker@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:53:16.309441&endDateTime=2018-01-30 23:53:16.309676
+[get_bunker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-07-31T18:00:00.0000000 UTC >>> End Time: 2017-07-31T21:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-01T12:00:00.0000000 UTC >>> End Time: 2017-08-01T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Dancing 101 with Denis >>> Location: Bunker >>> Start Time: 2017-08-02T21:30:00.0000000 UTC >>> End Time: 2017-08-03T00:00:00.0000000 UTC >>> Organizer: Bunker >>>  Desription: The dancing lesson will contain Salsa and, probably, one classic ballroom (Waltz or Quickstep). All the material from the  July 27 lesson will be reviewed and repeated. So, if you missed the first lesson on July, 27 - don't worry, we will start over.  I i
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dustin Phillips  >>> Location: Bunker >>> Start Time: 2017-08-03T15:30:00.0000000 UTC >>> End Time: 2017-08-03T15:45:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Scott Whitlock  >>> Location: Bunker @ Flexware >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T21:00:00.0000000 UTC >>> Organizer: Scott Whitlock >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-04T12:00:00.0000000 UTC >>> End Time: 2017-08-04T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Dan Hughes  >>> Location: Bunker >>> Start Time: 2017-08-04T17:00:00.0000000 UTC >>> End Time: 2017-08-04T18:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Will Nichols  >>> Location: Bunker >>> Start Time: 2017-08-10T15:30:00.0000000 UTC >>> End Time: 2017-08-10T17:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-15T12:00:00.0000000 UTC >>> End Time: 2017-08-15T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-17T14:00:00.0000000 UTC >>> End Time: 2017-08-17T18:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Jesse Wortman  >>> Location: Bunker >>> Start Time: 2017-08-18T14:00:00.0000000 UTC >>> End Time: 2017-08-18T15:30:00.0000000 UTC >>> Organizer: Jesse Wortman >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Jason Strawhacker  >>> Location: Bunker >>> Start Time: 2017-08-18T15:30:00.0000000 UTC >>> End Time: 2017-08-18T19:00:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-22T12:00:00.0000000 UTC >>> End Time: 2017-08-22T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-23T21:00:00.0000000 UTC >>> End Time: 2017-08-24T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-24T11:00:00.0000000 UTC >>> End Time: 2017-08-24T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-29T12:00:00.0000000 UTC >>> End Time: 2017-08-29T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-05T12:00:00.0000000 UTC >>> End Time: 2017-09-05T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-12T12:00:00.0000000 UTC >>> End Time: 2017-09-12T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-19T12:00:00.0000000 UTC >>> End Time: 2017-09-19T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-24T12:00:00.0000000 UTC >>> End Time: 2017-09-24T23:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-26T12:00:00.0000000 UTC >>> End Time: 2017-09-26T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-27T21:00:00.0000000 UTC >>> End Time: 2017-09-28T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-03T12:00:00.0000000 UTC >>> End Time: 2017-10-03T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-05T11:00:00.0000000 UTC >>> End Time: 2017-10-05T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Jillian Vanarsdall  >>> Location: Flexware's Backyard >>> Start Time: 2017-10-07T16:00:00.0000000 UTC >>> End Time: 2017-10-07T19:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-10T12:00:00.0000000 UTC >>> End Time: 2017-10-10T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-17T12:00:00.0000000 UTC >>> End Time: 2017-10-17T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-24T12:00:00.0000000 UTC >>> End Time: 2017-10-24T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-25T21:00:00.0000000 UTC >>> End Time: 2017-10-26T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: bunkerroomschedule2
+[all_events]: >>>> bunkerroomschedule2 has been updated ....... 
+
+[get_boilermaker_events]  HELLO, Current time is: 2017-08-03 23:53:19.886405
+[get_boilermaker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Boilermaker.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:53:19.885913&endDateTime=2018-01-30 23:53:19.886230
+[get_boilermaker_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-30T19:00:00.0000000 UTC >>> End Time: 2017-07-30T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Jason Toschlog  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T12:30:00.0000000 UTC >>> End Time: 2017-07-31T14:00:00.0000000 UTC >>> Organizer: Jason Toschlog >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-31T19:00:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Will Nichols  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T14:30:00.0000000 UTC >>> End Time: 2017-08-01T16:00:00.0000000 UTC >>> Organizer: Will Nichols >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T17:00:00.0000000 UTC >>> End Time: 2017-08-01T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T18:00:00.0000000 UTC >>> End Time: 2017-08-01T18:45:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-01T19:00:00.0000000 UTC >>> End Time: 2017-08-01T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T17:00:00.0000000 UTC >>> End Time: 2017-08-02T18:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-02T19:00:00.0000000 UTC >>> End Time: 2017-08-02T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Gabe Holmes  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T17:59:00.0000000 UTC >>> End Time: 2017-08-03T18:55:00.0000000 UTC >>> Organizer: Gabe Holmes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-03T19:00:00.0000000 UTC >>> End Time: 2017-08-03T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T13:30:00.0000000 UTC >>> End Time: 2017-08-04T14:30:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-04T19:00:00.0000000 UTC >>> End Time: 2017-08-04T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Dustin Phillips  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-07T17:00:00.0000000 UTC >>> End Time: 2017-08-07T17:30:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T18:00:00.0000000 UTC >>> End Time: 2017-08-09T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jace Sanders  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-09T19:00:00.0000000 UTC >>> End Time: 2017-08-09T20:00:00.0000000 UTC >>> Organizer: Jace Sanders >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-08-14T14:00:00.0000000 UTC >>> End Time: 2017-08-14T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-11T14:00:00.0000000 UTC >>> End Time: 2017-09-11T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-09-13T18:00:00.0000000 UTC >>> End Time: 2017-09-13T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-09T14:00:00.0000000 UTC >>> End Time: 2017-10-09T15:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-10-11T18:00:00.0000000 UTC >>> End Time: 2017-10-11T19:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-08T19:00:00.0000000 UTC >>> End Time: 2017-11-08T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-11-13T15:00:00.0000000 UTC >>> End Time: 2017-11-13T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Linda Takayoshi  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-11T15:00:00.0000000 UTC >>> End Time: 2017-12-11T16:00:00.0000000 UTC >>> Organizer: Linda Takayoshi >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Paul Sisti  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-12-13T19:00:00.0000000 UTC >>> End Time: 2017-12-13T20:00:00.0000000 UTC >>> Organizer: Paul Sisti >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: boilermakerroomschedule2
+[all_events]: >>>> boilermakerroomschedule2 has been updated ....... 
+
+[get_strategy_events]  HELLO, Current time is: 2017-08-03 23:53:25.707460
+[get_strategy_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Strategy.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-29 23:53:25.707067&endDateTime=2018-01-30 23:53:25.707320
+[get_strategy_events] user_email = Meetings@flexwareinnovation.com
+Meeting #1 >>> Subject: Greg Stevens  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T19:30:00.0000000 UTC >>> End Time: 2017-07-31T20:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Dan Hughes  >>> Location: Strategy Conference Room >>> Start Time: 2017-07-31T20:00:00.0000000 UTC >>> End Time: 2017-07-31T22:00:00.0000000 UTC >>> Organizer: Dan Hughes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T12:00:00.0000000 UTC >>> End Time: 2017-08-02T13:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Dave Hart  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T14:00:00.0000000 UTC >>> End Time: 2017-08-02T15:00:00.0000000 UTC >>> Organizer: Dave Hart >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Matt Heiden  >>> Location: Strategy Conference Room >>> Start Time: 2017-08-02T17:30:00.0000000 UTC >>> End Time: 2017-08-02T19:00:00.0000000 UTC >>> Organizer: Matt Heiden >>>  Desription: 

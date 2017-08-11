@@ -1,0 +1,219 @@
+Validating models...
+
+System check identified no issues (0 silenced).
+July 17, 2017 - 21:36:54
+Django version 1.11.2, using settings 'python_tutorial.settings'
+Starting development server at https://0:8000/
+Using SSL certificate: /usr/local/lib/python3.5/dist-packages/sslserver/certs/development.crt
+Using SSL key: /usr/local/lib/python3.5/dist-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+redirect_uri = https://192.168.52.129:8000/tutorial/gettoken/
+sign_in_url = https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9affe2f7-20ee-4c73-b23b-7a69e604869d&redirect_uri=https%3A%2F%2F192.168.52.129%3A8000%2Ftutorial%2Fgettoken%2F&response_type=code&scope=openid+offline_access+User.Read+Mail.Read+Calendars.Read+Calendars.Read.Shared
+----------------------------------------
+Exception happened during processing of request from ('192.168.52.1', 50225)
+----------------------------------------
+[get_my_events] HELLO, Current time is: 2017-07-17 21:38:18.170168
+[get_my_events] get_events_url = https://graph.microsoft.com/v1.0/me/CalendarView?startDateTime=2017-07-12 21:38:18.169550&endDateTime=2018-01-13 21:38:18.170017
+[get_my_events] user_email = Denis.Ulybyshev@flexwareinnovation.com
+Meeting #1 >>> Subject: [HOLD] Trailblazer PD #4 (Balloon Launch & STEM Learning) >>> Location: Bunker >>> Start Time: 2017-07-14T12:00:00.0000000 UTC >>> End Time: 2017-07-14T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: Matt is working with Scott on Balloon Launch plans.
+
+-Balloon launch
+-Lunch
+-STEM activities
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Calendar test event #15 >>> Location: Strategy Conference Room >>> Start Time: 2017-07-14T21:30:00.0000000 UTC >>> End Time: 2017-07-14T22:30:00.0000000 UTC >>> Organizer: Denis Ulybyshev >>>  Desription: Calendar test #15 - create table if not exists (instead of drop)
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Q&A Review FMEA  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-18T17:00:00.0000000 UTC >>> End Time: 2017-07-18T17:30:00.0000000 UTC >>> Organizer: Gabe Holmes >>>  Desription: Just some general questions about how you'd like IC's and upper layers/levels handled.
+
+
+Thanks
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Company Meeting! >>> Location: Bunker >>> Start Time: 2017-07-20T11:00:00.0000000 UTC >>> End Time: 2017-07-20T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 7:00            breakfast
+7:30 – 9:00     meeting
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: ifm / Flexware Innovation Meeting >>> Location: Flexware Innovation, Fishers, IN >>> Start Time: 2017-07-20T13:30:00.0000000 UTC >>> End Time: 2017-07-20T14:30:00.0000000 UTC >>> Organizer: Radcliffe, Kurt >>>  Desription: Ryan,
+
+Here is the agenda:
+
+-       Review and demonstrate new IO-Link block and LR Device configuration software
+-       Discuss sensor family advantages when used with IO-Link, level, pressure, encoder, laser, inductive, capacitive, temp, flow
+-  
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Fwd: Neff Demo Expo - Indianapolis Automation Show >>> Location: The Wellington, 9775 N by NE Blvd, Fishers, IN 46037 >>> Start Time: 2017-07-20T14:30:00.0000000 UTC >>> End Time: 2017-07-20T18:30:00.0000000 UTC >>> Organizer: Brian Stuerzenberger >>>  Desription: FYI
+
+Ryan Binkley
+Sent from my iPhone
+
+Begin forwarded message:
+
+From: "Brian Stuerzenberger" <BrianS@NeffEngineering.com>
+To: "Jay Settle" <jay.settle@flexwareinnovation.com>, "Ryan Binkley" <Ryan.Binkley@flexwareinnovation.com>, "Josh Demaree" <
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Fw: FMEA review - bookmark >>> Location:  >>> Start Time: 2017-07-21T17:00:00.0000000 UTC >>> End Time: 2017-07-21T18:30:00.0000000 UTC >>> Organizer: Chad Hartzog >>>  Desription: Gabe Holmes
+Senior Automation Engineer
+Flexware Innovation, Inc.
+
+o. 317.813.5443  m. 209.315.8429
+9128 technology lane | fishers, in 46038
+gabe.holmes@flexwareinnovation.com<https://mail2010.flexwareinnovation.com/owa/redir.aspx?C=afb61733c
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Dancing 101 with Denis >>> Location: Bunker >>> Start Time: 2017-07-27T21:00:00.0000000 UTC >>> End Time: 2017-07-27T23:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: The lesson will contain two parts: one latin (Salsa) and one classic ballroom (Waltz).
+
+Bring your friends! I will try to invite a couple of more girls from our dancing team.  After that on Thursday, there will be a latin dancing night in "Red Room" clu
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: PD #5 - Finance 101 Class w/Kara Fischer >>> Location: Bunker >>> Start Time: 2017-07-28T12:45:00.0000000 UTC >>> End Time: 2017-07-28T14:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: Kara Fischer with Elements Financial will be teaching a Finance 101 course for the Trailblazers. Kara works two days a week at Butler University assisting students with financial wellness.
+
+This class is more high level and is meant to prepare students 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Trailblazer PD #5 - Nestle Tour >>> Location: Nestle - 4301 W 450 S, Anderson, IN 46011 >>> Start Time: 2017-07-28T14:00:00.0000000 UTC >>> End Time: 2017-07-28T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 10:10a                  Arrive @ Flexware
+10:15a                  Depart Flexware
+11:00 – 12:20           Lunch at Greek Pizzeria - 6317 Doctor M.L.K. Jr Blvd, Anderson, IN 46013<https://www.google.com/maps/place/Greek's+Pizzeria/@40.0509371,-85.719219,
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2017-08-03T15:45:00.0000000 UTC >>> End Time: 2017-08-03T16:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: [HOLD] Trailblazer PD #6 - Last Day Presentations & Fun Activity >>> Location: Bunker >>> Start Time: 2017-08-04T12:00:00.0000000 UTC >>> End Time: 2017-08-04T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: Everyone who was responsible for making the Trailblazer summer happen are invited, as well as host companies. Last year, we did presentations & then went paintballing. This year’s fun activity will be based on what the Trailblazers would like to do.
+
+HE
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Company Meeting! >>> Location: Bunker >>> Start Time: 2017-08-24T11:00:00.0000000 UTC >>> End Time: 2017-08-24T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 7:00 breakfast
+7:30 – 9:00 meeting
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2017-09-07T15:45:00.0000000 UTC >>> End Time: 2017-09-07T16:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Company Meeting! >>> Location: Bunker >>> Start Time: 2017-10-05T11:00:00.0000000 UTC >>> End Time: 2017-10-05T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 7:00 breakfast
+7:30 – 9:00 meeting
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2017-10-05T15:45:00.0000000 UTC >>> End Time: 2017-10-05T16:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2017-11-02T15:45:00.0000000 UTC >>> End Time: 2017-11-02T16:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Company Meeting! >>> Location: Bunker >>> Start Time: 2017-11-16T12:00:00.0000000 UTC >>> End Time: 2017-11-16T14:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 7:00 breakfast
+7:30 – 9:00 meeting
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2017-12-07T16:45:00.0000000 UTC >>> End Time: 2017-12-07T17:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Company Meeting! >>> Location: Bunker >>> Start Time: 2017-12-28T12:00:00.0000000 UTC >>> End Time: 2017-12-28T14:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 7:00 breakfast
+7:30 – 9:00 meeting
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: [Lunch Break] FREE PIZZA, SALAD & GAMES >>> Location: Bunker >>> Start Time: 2018-01-04T16:45:00.0000000 UTC >>> End Time: 2018-01-04T17:45:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: As a thank you for everything you do, we will have an ongoing once a month free pizza/salad + euchre/games day. We wanted to create an ongoing calendar invite, so everyone knows ahead of time.
+
+Thanks for all your hard work! ☺
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: otherroomschedule2
+[all_events]: >>>> otherroomschedule2 has been updated ....... 
+
+[get_bunker_events]  HELLO, Current time is: 2017-07-17 21:38:21.450510
+[get_bunker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/bunker@flexwareinnovation.com/CalendarView?startDateTime=2017-07-12 21:38:21.450098&endDateTime=2018-01-13 21:38:21.450347
+[get_bunker_events] user_email = Denis.Ulybyshev@flexwareinnovation.com
+Meeting #1 >>> Subject: Greg Stevens  >>> Location: Bunker >>> Start Time: 2017-07-13T17:00:00.0000000 UTC >>> End Time: 2017-07-13T21:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-14T12:00:00.0000000 UTC >>> End Time: 2017-07-14T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Greg Stevens  >>> Location: Bunker >>> Start Time: 2017-07-17T19:30:00.0000000 UTC >>> End Time: 2017-07-17T20:30:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #4 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-07-18T12:00:00.0000000 UTC >>> End Time: 2017-07-18T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #5 >>> Subject: Greg Stevens  >>> Location: Bunker >>> Start Time: 2017-07-18T13:30:00.0000000 UTC >>> End Time: 2017-07-18T16:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #6 >>> Subject: Greg Stevens  >>> Location: Bunker >>> Start Time: 2017-07-18T17:00:00.0000000 UTC >>> End Time: 2017-07-18T21:00:00.0000000 UTC >>> Organizer: Greg Stevens >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #7 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-20T10:40:00.0000000 UTC >>> End Time: 2017-07-20T11:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #8 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-20T11:00:00.0000000 UTC >>> End Time: 2017-07-20T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #9 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-07-23T12:00:00.0000000 UTC >>> End Time: 2017-07-24T00:00:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #10 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-07-25T12:00:00.0000000 UTC >>> End Time: 2017-07-25T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #11 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-25T16:30:00.0000000 UTC >>> End Time: 2017-07-25T19:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #12 >>> Subject: Jason Strawhacker  >>> Location: Bunker >>> Start Time: 2017-07-25T20:00:00.0000000 UTC >>> End Time: 2017-07-25T21:00:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #13 >>> Subject: Jason Strawhacker  >>> Location: Bunker >>> Start Time: 2017-07-26T18:00:00.0000000 UTC >>> End Time: 2017-07-26T21:00:00.0000000 UTC >>> Organizer: Jason Strawhacker >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #14 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-26T21:00:00.0000000 UTC >>> End Time: 2017-07-27T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #15 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-27T21:00:00.0000000 UTC >>> End Time: 2017-07-27T23:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #16 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-07-28T12:45:00.0000000 UTC >>> End Time: 2017-07-28T14:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #17 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-01T12:00:00.0000000 UTC >>> End Time: 2017-08-01T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #18 >>> Subject: Dustin Phillips  >>> Location: Bunker >>> Start Time: 2017-08-03T15:15:00.0000000 UTC >>> End Time: 2017-08-03T15:45:00.0000000 UTC >>> Organizer: Dustin Phillips >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #19 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-04T12:00:00.0000000 UTC >>> End Time: 2017-08-04T21:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #20 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-08T12:00:00.0000000 UTC >>> End Time: 2017-08-08T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #21 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-15T12:00:00.0000000 UTC >>> End Time: 2017-08-15T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #22 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-17T14:00:00.0000000 UTC >>> End Time: 2017-08-17T18:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #23 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-22T12:00:00.0000000 UTC >>> End Time: 2017-08-22T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #24 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-23T21:00:00.0000000 UTC >>> End Time: 2017-08-24T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #25 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-08-24T11:00:00.0000000 UTC >>> End Time: 2017-08-24T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #26 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-08-29T12:00:00.0000000 UTC >>> End Time: 2017-08-29T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #27 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-05T12:00:00.0000000 UTC >>> End Time: 2017-09-05T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #28 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-12T12:00:00.0000000 UTC >>> End Time: 2017-09-12T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #29 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-19T12:00:00.0000000 UTC >>> End Time: 2017-09-19T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #30 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-09-26T12:00:00.0000000 UTC >>> End Time: 2017-09-26T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #31 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-09-27T21:00:00.0000000 UTC >>> End Time: 2017-09-28T01:30:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #32 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-03T12:00:00.0000000 UTC >>> End Time: 2017-10-03T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #33 >>> Subject: Jillian Vanarsdall  >>> Location: Bunker >>> Start Time: 2017-10-05T11:00:00.0000000 UTC >>> End Time: 2017-10-05T13:00:00.0000000 UTC >>> Organizer: Jillian Vanarsdall >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #34 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-10T12:00:00.0000000 UTC >>> End Time: 2017-10-10T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #35 >>> Subject: Kelly Pryor  >>> Location: Bunker >>> Start Time: 2017-10-17T12:00:00.0000000 UTC >>> End Time: 2017-10-17T12:45:00.0000000 UTC >>> Organizer: Kelly Pryor >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+[updateDB] SQL command committed; the following DB has been updated: bunkerroomschedule2
+[all_events]: >>>> bunkerroomschedule2 has been updated ....... 
+
+[get_boilermaker_events]  HELLO, Current time is: 2017-07-17 21:38:24.769412
+[get_boilermaker_events] get_events_url = https://graph.microsoft.com/v1.0/Users/Boilermaker.Conference.Room@flexwareinnovation.com/CalendarView?startDateTime=2017-07-12 21:38:24.769015&endDateTime=2018-01-13 21:38:24.769264
+[get_boilermaker_events] user_email = Denis.Ulybyshev@flexwareinnovation.com
+Meeting #1 >>> Subject: Brice Bucher  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-14T19:00:00.0000000 UTC >>> End Time: 2017-07-14T20:00:00.0000000 UTC >>> Organizer: Brice Bucher >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #2 >>> Subject: Gabe Holmes  >>> Location: Boilermaker Conference Room >>> Start Time: 2017-07-17T19:30:00.0000000 UTC >>> End Time: 2017-07-17T20:30:00.0000000 UTC >>> Organizer: Gabe Holmes >>>  Desription: 
+###### END OF CALENDAR EVENT #####
+Meeting #3 >>> Subject: Test #20170717 >>> Location: Boilermaker Strategy Room >>> Start Time: 2017-07-17T20:30:00.0000000 UTC >>> End Time: 2017-07-17T22:00:00.0000000 UTC >>> Organizer: Boilermaker Conference Room >>>  Desription: Updated functions in outlookservice.py to read 35 events in ascending order
+###### END OF CALENDAR EVENT #####
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
+Validating models...
+
