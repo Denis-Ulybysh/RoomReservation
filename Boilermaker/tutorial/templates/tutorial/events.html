@@ -1,0 +1,29 @@
+{% extends "tutorial/layout.html" %}
+{% block content %}
+<h1>Your Events</h1>
+<table class="table">
+  <tr>
+    <th>Subject</th>
+    <th>Start</th>
+    <th>End</th>
+    <th>Organizer</th>
+    <th>Location</th>
+    <th>Body</th>
+    <th>Categories</th>
+    <th>BodyPreview</th>
+  </tr>
+
+  {% for event in events %}
+    <tr>
+      <td>{{ event.subject }}</td>
+      <td>{{ event.start.dateTime }} ({{ event.start.timeZone }})</td>
+      <td>{{ event.end.dateTime }} ({{ event.end.timeZone }})</td>
+      <td>{{ event.organizer.emailAddress.name }}</td>
+      <td>{{ event.location.displayName }}</td>
+      <td>{{ event.body.content }}</td>
+      <td>{{ event.categories }}</td>
+      <td>{{ event.bodyPreview }}</td>
+    </tr>
+  {% endfor %}
+</table>
+{% endblock %}

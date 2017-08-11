@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexware Meeting Room Reservation System</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body style="padding-top: 70px;">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Log In</a>
+	<a class="navbar-brand" href="/tutorial/bunker_events">Bunker</a>
+        <a class="navbar-brand" href="/tutorial/boilermaker_events">Boilermaker Room</a>
+        <a class="navbar-brand" href="/tutorial/strategy_events">Strategy Room</a>
+        <a class="navbar-brand" href="/tutorial/my_events">My Calendar</a>
+	<a class="navbar-brand" href="/tutorial/mail">My Email Inbox</a>
+      </div>
+
+	<!-- July, 05 - remove duplicated items from the main menu 
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav authed-nav">    
+        July 05 --> 
+          <!--30 June  <li id='home-nav'><a href="/">Home</a></li>   -->
+       	  <!-- July, 05 - remove duplicated items from the main menu   
+          <li id='inbox-nav'><a href="/tutorial/mail">Inbox</a></li>
+          <li id='calendar-nav'><a href="/tutorial/bunker_events">Bunker Calendar</a></li>
+          July 05 --> 
+          <!--30 June <li id='contacts-nav'><a href="/tutorial/contacts">Contacts</a></li>  -->
+	<!-- July, 05 - remove duplicated items from the main menu 
+        </ul>
+      </div>
+	--> 
+
+    </div>
+  </nav>
+
+  <div class="container main-container">
+    {% block content %}{% endblock %}
+  </div>
+
+</body>
+</html>
